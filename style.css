@@ -1,10 +1,11 @@
 /* navigation */
 
 .navbar{
-  background-color: purple;
+  background-color: rgb(181, 181, 254);
   font-weight: bold;
   font-size: 0.9rem;
   letter-spacing: 0.1rem;
+  box-shadow: 3px 22px 59px -8px rgba(66, 68, 90, 1);
 }
 
 .navbar-brand > img{
@@ -15,13 +16,17 @@
   padding-right: 0.3rem;
 }
 
+.navbar .navbar-nav .nav-link{
+color:white;
+}
 .navbar .navbar-nav .nav-link:hover{
-  color: rgb(5, 145, 145);
+  color: green;
+  
 }
 
 /* landing */
 .home-inner{
-  background-image: url(img/computers.png);
+  background-image: url(/istockphoto-1252872654-612x612.jpg);
 }
 
 .caption{
