@@ -1,71 +1,120 @@
 /* navigation */
 
 .navbar{
-  background-color: purple;
+  background-color: rgb(73, 143, 64);
   font-weight: bold;
   font-size: 0.9rem;
   letter-spacing: 0.1rem;
+  box-shadow: 3px 22px 59px -8px rgba(66, 68, 90, 1);
 }
 
-.navbar-brand > img{
+.navbar-brand > img {
   height: 1.8rem;
 }
 
-.navbar-nav .nav-item{
+.navbar-nav .nav-item {
   padding-right: 0.3rem;
 }
 
-.navbar .navbar-nav .nav-link:hover{
-  color: rgb(5, 145, 145);
+.navbar .navbar-nav .nav-link {
+  color: white;
+}
+.navbar .navbar-nav .nav-link:hover {
+  color: green;
 }
 
 /* landing */
-.home-inner{
-  background-image: url(img/computers.png);
+.home-inner {
+  background-image: url(img/istockphoto-1252872654-612x612.jpg);
 }
 
-.caption{
+.caption {
   width: 100%;
-  color:white;
+  color: white;
   position: absolute;
-  top:35%;
+  top: 35%;
   z-index: 1;
 }
 
 /* course */
-#course{
+#course {
   background-color: darkgray;
 }
 
-
 /* features */
 
-.line{
+.line {
   margin-bottom: 0;
 }
 
-.jumbotron{
+.jumbotron {
   margin-bottom: 0;
   padding-bottom: 0;
 }
 
-.features-list{
+.features-list {
   list-style: none;
-}  
+}
 
 /* clients */
-.client{
+.client {
   border-radius: 50%;
-  min-width: 15vw /* width of accessible frame */
+  min-width: 15vw; /* width of accessible frame */
 }
 
+/* Contact form styles START */
+
+form {
+  width: 50%;
+  margin: 2rem auto;
+}
+
+form h3 {
+    margin: 2rem 0;
+  }
+
+form .col-md {
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+form .btn-primary {
+  background-color: green;
+  border-color: green;
+}
+
+form .btn-primary:hover {
+  background-color: lightgreen;
+  border-color: lightgreen;
+  color: darkgreen;
+}
+
+/* Contact form styles END */
+
 /* Own @media queries rules */
-@media all and (max-width:992px) {
-  .client{
-    width:50%
+@media all and (max-width: 992px) {
+  .client {
+    width: 50%;
   }
 }
+/*============= SECTION =============*/
+
+/*contact*/
+footer img{
+  height:3rem;
+  margin: 1rem 0;
+}
+
+footer a{
+  color: rgb(31, 73, 5)
+}
+
+footer a:hover{
+  color: rgb(77, 255, 0)
+}
+
   /*============= SECTION =============*/
+
 
 /* .narrow {
   width: 75%;
@@ -92,7 +141,6 @@
   background-color: #189582;
   color: white;
 } */
-
 
 /*============ BOOTSTRAP BREAK POINTS:
 
