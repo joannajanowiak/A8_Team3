@@ -65,6 +65,21 @@
     width:50%
   }
 }
+
+/*contact*/
+footer img{
+  height:3rem;
+  margin: 1rem 0;
+}
+
+footer a{
+  color: black
+}
+
+footer a:hover{
+  color: darkgray
+}
+
   /*============= SECTION =============*/
 
 /* .narrow {
