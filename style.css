@@ -1,7 +1,7 @@
 /* navigation */
 
-.navbar {
-  background-color: rgb(170, 210, 239);
+.navbar{
+  background-color: rgb(73, 143, 64);
   font-weight: bold;
   font-size: 0.9rem;
   letter-spacing: 0.1rem;
@@ -98,6 +98,22 @@ form .btn-primary:hover {
   }
 }
 /*============= SECTION =============*/
+
+/*contact*/
+footer img{
+  height:3rem;
+  margin: 1rem 0;
+}
+
+footer a{
+  color: rgb(31, 73, 5)
+}
+
+footer a:hover{
+  color: rgb(77, 255, 0)
+}
+
+  /*============= SECTION =============*/
 
 
 /* .narrow {
