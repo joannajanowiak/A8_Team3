@@ -1,7 +1,7 @@
 /* navigation */
 
 .navbar{
-  background-color: purple;
+  background-color: rgb(73, 143, 64);
   font-weight: bold;
   font-size: 0.9rem;
   letter-spacing: 0.1rem;
@@ -102,11 +102,11 @@ footer img{
 }
 
 footer a{
-  color: black
+  color: rgb(31, 73, 5)
 }
 
 footer a:hover{
-  color: darkgray
+  color: rgb(77, 255, 0)
 }
 
   /*============= SECTION =============*/
