@@ -59,12 +59,34 @@
   min-width: 15vw /* width of accessible frame */
 }
 
+/* Contact form */
+
+form {
+  width: 50%;
+  margin: 2rem auto;
+}
+
+form h3 {
+    margin: 2rem 0;
+  }
+
 /* Own @media queries rules */
 @media all and (max-width:992px) {
   .client{
     width:50%
   }
 }
+
+/* @media queries rules for contact form */
+
+@media all and (max-width: 768px) {
+  form .col-md {
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+}
+
+
   /*============= SECTION =============*/
 
 /* .narrow {
