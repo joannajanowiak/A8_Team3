@@ -59,7 +59,7 @@
   min-width: 15vw /* width of accessible frame */
 }
 
-/* Contact form */
+/* Contact form styles START */
 
 form {
   width: 50%;
@@ -85,6 +85,8 @@ form .btn-primary:hover {
   border-color: lightgreen;
   color: darkgreen;
 }
+
+/* Contact form styles END */
 
 /* Own @media queries rules */
 @media all and (max-width:992px) {
