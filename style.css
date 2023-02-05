@@ -70,22 +70,28 @@ form h3 {
     margin: 2rem 0;
   }
 
+form .col-md {
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+form .btn-primary {
+  background-color: green;
+  border-color: green;
+}
+
+form .btn-primary:hover {
+  background-color: lightgreen;
+  border-color: lightgreen;
+  color: darkgreen;
+}
+
 /* Own @media queries rules */
 @media all and (max-width:992px) {
   .client{
     width:50%
   }
 }
-
-/* @media queries rules for contact form */
-
-@media all and (max-width: 768px) {
-  form .col-md {
-    padding-top: 0;
-    padding-bottom: 0;
-  }
-}
-
 
   /*============= SECTION =============*/
 
